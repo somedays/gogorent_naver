@@ -58,16 +58,18 @@ body {background-color:#222;}
 .gogo_car_list .car_card_list {display:flex;padding:2rem 3rem;box-sizing:border-box;width:100%;overflow:auto;}
 .gogo_car_list .car_card_list::-webkit-scrollbar {width:0;height:0;}
 .gogo_car_list .car_card_list::-webkit-scrollbar-thumb {background-color:#ff7a00;border-radius:5px;}
-.gogo_car_list .car_card {flex:0 0 22rem;border:1px solid #aaa;padding:2rem;box-sizing:border-box;margin-right:2rem;}
+.gogo_car_list .car_card {position:relative;flex:0 0 22rem;border:1px solid #aaa;padding:2rem;box-sizing:border-box;margin-right:2rem;}
 .gogo_car_list .car_card:last-child {margin-right:0;}
 .gogo_car_list .car_card:hover {border-color:#ff7a00;cursor:pointer;}
 .gogo_car_list .car_card .car_name {font-size:2.5rem;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 .gogo_car_list .car_card .car_trim {font-size:1.5rem;font-weight:300;text-overflow: ellipsis;overflow: hidden;display: -webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;height:4.4rem;}
 .gogo_car_list .car_card .car_img {text-align:center;height:14rem;line-height:14rem;}
 .gogo_car_list .car_card .car_img img {width:100%;vertical-align:middle;}
-.gogo_car_list .car_card .car_price {font-size: 1.5rem;font-weight:300;border-top:1px solid #ddd;text-align:center;color: #333;padding-top:1rem;white-space:nowrap;}
-.gogo_car_list .car_card .car_price strong {color:#000;font-weight:800;font-size: 2.4rem;padding:0 .3rem;}
-
+.gogo_car_list .car_card .car_price {font-size: 1.5rem;font-weight:300;border-top:1px solid #ddd;color: #333;padding-top:1rem;white-space:nowrap;}
+.gogo_car_list .car_card .car_price strong {color:#000;font-weight:800;font-size: 2.4rem;}
+.gogo_car_list .car_card .car_discount {font-size: 1.6rem;font-weight:600;color:#ff7a00;white-space:nowrap;}
+.gogo_car_list .car_card .brand_logo {position:absolute;top:10px;right:5px;width:60px;}
+.gogo_car_list .car_card .brand_logo img {width:100%;}
 
 .gogo_media {background-color:#ececec;padding:3rem 3rem 5rem 3rem;}
 .media_area.owl-carousel .owl-dots {text-align:center;box-sizing:border-box;}
